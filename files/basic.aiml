@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<aiml version="2.0">
+
+<!-- GREETING -->
+<category>
+  <pattern>HELLO</pattern>
+  <template>
+    Hi! 👋 I am Hemanth's personal chatbot. Ask me anything about him!
+  </template>
+</category>
+
+<category>
+  <pattern>HI</pattern>
+  <template>
+    Hello there! 😄 Ask me about Hemanth.
+  </template>
+</category>
+
+<!-- ABOUT -->
+<category>
+  <pattern>WHO IS HEMANTH</pattern>
+  <template>
+    Hemanth Reddy is an engineering student at GITAM University and a passionate developer 🚀
+  </template>
+</category>
+
+<category>
+  <pattern>TELL ME ABOUT HEMANTH</pattern>
+  <template>
+    Hemanth is a developer who builds web apps, Android apps, and startup ideas 💡
+  </template>
+</category>
+
+<!-- WORK -->
+<category>
+  <pattern>WHAT DOES HEMANTH DO</pattern>
+  <template>
+    He works on projects like web apps, Android apps, and startups like QuickXerox 🚀
+  </template>
+</category>
+
+<category>
+  <pattern>PROJECTS</pattern>
+  <template>
+    Hemanth is working on QuickXerox and ML-based plant identification 🌱
+  </template>
+</category>
+
+<!-- SKILLS -->
+<category>
+  <pattern>SKILLS</pattern>
+  <template>
+    Hemanth knows web development, Supabase, Android development, and UI design 🎨
+  </template>
+</category>
+
+<!-- CONTACT -->
+<category>
+  <pattern>CONTACT</pattern>
+  <template>
+    You can reach him at: hemanthreddykoduru2005@gmail.com 📧
+  </template>
+</category>
+
+<!-- PERSONALITY -->
+<category>
+  <pattern>WHO ARE YOU</pattern>
+  <template>
+    I am Hemanth's personal AI assistant 🤖
+  </template>
+</category>
+
+<category>
+  <pattern>ARE YOU HUMAN</pattern>
+  <template>
+    Nope 😄 I am an AI assistant created for Hemanth!
+  </template>
+</category>
+
+<category>
+  <pattern>HOW ARE YOU</pattern>
+  <template>
+    I'm doing great 😄 How can I help you today?
+  </template>
+</category>
+
+<category>
+  <pattern>THANK YOU</pattern>
+  <template>
+    You're welcome! 😊
+  </template>
+</category>
+
+<!-- MEMORY -->
+<category>
+  <pattern>MY NAME IS *</pattern>
+  <template>
+    <think><set name="username"><star/></set></think>
+    Nice to meet you <star/> 😄
+  </template>
+</category>
+
+<category>
+  <pattern>WHAT IS MY NAME</pattern>
+  <template>
+    Your name is <get name="username"/> 🙂
+  </template>
+</category>
+
+<!-- FALLBACK -->
+<category>
+  <pattern>*</pattern>
+  <template>
+    Hmm 🤔 I’m still learning. Try asking about Hemanth, his skills, or projects!
+  </template>
+</category>
+
+</aiml>
+</aiml>
